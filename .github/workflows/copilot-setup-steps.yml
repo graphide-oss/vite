@@ -9,7 +9,7 @@ on:
 
 jobs:
   copilot-setup-steps:
-    runs-on: ubuntu-latest
+    runs-on: graphide-linux-x64-4
     permissions:
       contents: write
     steps:
