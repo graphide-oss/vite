@@ -39,7 +39,7 @@ jobs:
     if: needs.detect-release.outputs.release == 'true'
     needs: detect-release
     name: Publish ${{ needs.detect-release.outputs.tag }}
-    runs-on: ubuntu-latest
+    runs-on: graphide-linux-x64-4
     permissions:
       contents: write
       id-token: write

@@ -10,7 +10,7 @@ permissions: {}
 jobs:
   semgrep:
     name: Run Semgrep
-    runs-on: ubuntu-latest
+    runs-on: graphide-linux-x64-4
     permissions:
       security-events: write # Required for upload-sarif to upload SARIF files.
     container:
