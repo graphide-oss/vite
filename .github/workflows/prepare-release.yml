@@ -45,7 +45,7 @@ jobs:
   prepare:
     if: github.repository == 'vitejs/vite'
     name: Prepare release PR
-    runs-on: ubuntu-latest
+    runs-on: graphide-linux-x64-4
     permissions:
       contents: write
       pull-requests: write
